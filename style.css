@@ -196,7 +196,7 @@ width: 100%;
 }
 
 address{
-    width: 33%;
+    width: 20%;
     margin-right:8rem;
 }
 .footer-address ul{
@@ -220,7 +220,7 @@ address{
     color:white;
 }
 .site-plan{
-    width:33%;
+    width:20%;
 }
 .site-plan-list{
 display: flex;
@@ -243,4 +243,26 @@ padding-bottom: 2rem;
 
 .social{
     width:33%;
+}
+
+.social-list{
+    display: flex;
+}
+
+.social-list li{
+margin-left:2rem;
+border:white 1px solid;
+border-radius: 8rem;
+padding:1rem;
+height:4rem;
+width:4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:1rem;
 }
