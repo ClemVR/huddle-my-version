@@ -318,8 +318,7 @@ address {
 @media (max-width: 375px) { 
 
 /* 
-
-
+RESPONSIVE MAIS PAS TROP
 */
 .container-main,
 .container-top,
@@ -355,21 +354,19 @@ address {
 a {
 
     font-size: 1.4rem;
-
 }
 
-h2 {
+.hero-text h2 {
+    margin-top:0;
     font-size: 2.4rem;
 }
 
 h3 {
     font-size: 2rem;
-
 }
 
 p {
     font-size: 1.4rem;
-
 }
 
 .hero-mid {
@@ -394,11 +391,12 @@ figure{
 }
 .odd-article .article-content,
 .article-bis .article-content{
-    padding-right:1rem;
-    padding-left: 1rem;
+    padding-right:4rem;
+    padding-left: 4rem;
     width: 100%;
     margin-top:3rem;
     margin-bottom:3rem;
+    padding-bottom: 3rem;
 }
 .ctafooter{
     width: 100%;
@@ -433,4 +431,13 @@ address{
 .social-list .faineant{
     margin-left: 0;
 }
- }
+
+footer{
+    margin-top: 20rem;
+}
+.hero-text .button{
+    margin-bottom:3rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+}
